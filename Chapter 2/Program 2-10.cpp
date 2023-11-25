@@ -2,18 +2,18 @@
 using namespace std;
 
 int main() {
-    int checking;
-    unsigned int miles;
-    long days;
+    int soDuTaiKhoan;
+    unsigned int quangDuong;
+    long soNgay;
 
-    checking = 20;  // Removed the negative sign
-    miles = 4276;
-    days = 189000;
+    soDuTaiKhoan = 20;  // Loại bỏ dấu âm
+    quangDuong = 4276;
+    soNgay = 189000;
 
-    cout << "We have made a long journey of " << miles << " miles." << endl;
-    cout << "Our checking account balance is " << checking << endl;
-    cout << "About " << days << " days ago Columbus ";
-    cout << "stood on this spot." << endl;
+    cout << "Chúng ta đã đi một chặng đường dài " << quangDuong << " dặm." << endl;
+    cout << "Số dư tài khoản của chúng ta là " << soDuTaiKhoan << endl;
+    cout << "Khoảng " << soNgay << " ngày trước, Columbus ";
+    cout << "đứng tại đây." << endl;
 
     return 0;
 }
