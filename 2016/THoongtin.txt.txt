@@ -1,0 +1,12 @@
+1 001 KB 20000 new BN[MSBN=001] khám bệnh => VPTL = 20kđ
+1 002 NV 100000 B new BN[MSBN=002] nhập viện vào phòng loại B, mỗi ngày khám chữa bệnh hết 100kđ
+6 003 KB 50000 new BN[MSBN=003] khám bệnh => VPTL = 50kđ
+6 001 KB 30000 BN[MSBN=001] khám bệnh => VPTL = 20kđ + 30kđ = 50kđ
+6 004 NV 300000 C new BN[MSBN=004] nhập viện vào phòng loại C, mỗi ngày khám chữa bệnh hết 300kđ
+7 004 XV BN[MSBN=004] xuất viện => VPTL = 1*(300k+600kđ) = 900kđ
+8 -1 TKVP Tổng kết viện phí:
++ BN[MSBN=001] => VPTL = 50kđ
++ BN[MSBN=002] đã nằm 7 ngày ở phòng loại B => VPTL = 7*(100kđ+900kđ) = 7000kđ
++ BN[MSBN=003] => VPTL = 50kđ
++ BN[MSBN=004] => VPTL = 900kđ
+= => Tổng viện phí = 50kđ + 7000kđ + 50kđ + 900kđ = 8000kđ
